@@ -10,3 +10,13 @@ hr {
     background-color:black;
     height: 10px;
 }
+
+.contactform{
+    border: solid;
+    border-color: crimson;
+}
+
+.video{
+    border: solid;
+    border-color:blueviolet;
+}
