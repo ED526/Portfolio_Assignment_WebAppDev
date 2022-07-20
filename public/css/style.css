@@ -1,5 +1,5 @@
 body {
-    background-color:mediumseagreen
+    background-color:lightslategray
 }
 
 h1, h2, h3, h4, h5, p {
@@ -7,6 +7,6 @@ h1, h2, h3, h4, h5, p {
 }
 
 hr {
-    background-color: darkblue;
+    background-color:black;
     height: 10px;
 }
