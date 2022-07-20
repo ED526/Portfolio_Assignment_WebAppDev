@@ -28,25 +28,30 @@ hr {
 
 .song{
     border:solid;
-    border-color:orange
+    border-color:orange;
 }
 
 .film{
     border:solid;
-    border-color:orange
+    border-color:orange;
 }
 
 .hobby{
     border:solid;
-    border-color:orange
+    border-color:orange;
 }
 
 .food{
     border:solid;
-    border-color:orange
+    border-color:orange;
 }
 
 .color{
     border:solid;
-    border-color:orange
+    border-color:orange;
+}
+
+.edulist{
+    border: solid;
+    border-color:blueviolet;
 }
