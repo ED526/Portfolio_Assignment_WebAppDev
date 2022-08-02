@@ -1,0 +1,81 @@
+<%- include('layouts/header.ejs')%>
+
+      <hr>
+      <br>
+      <!--Contact Form Text-->
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h1>Contact</h1>
+            <br>
+            <p>Feel free to contact me either through the form below or my email which is: </p>
+            <br>
+            <h4>edele08@jaguar.tamu.edu</h4>
+          </div>
+        </div>
+      </div>
+      <!--End of Contact Text-->
+
+      <hr>
+      <br>
+
+      <!--Start of Contact Form-->
+      <div class="container">
+        <div class="row">
+            <div class="col-12 text-center contactform p-5">
+                <form>
+                    <h3>Contact us</h3>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1"> First Name:</span>
+                        <input type="text" class="form-control" name="fname" placeholder="Your First Name Here" aria-label="Your First Name Here" aria-describedby="basic-addon1">
+                      </div>
+
+                      <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1"> Last Name:</span>
+                        <input type="text" class="form-control" name="lname" placeholder="Your Last Name Here" aria-label="Your Last Name Here" aria-describedby="basic-addon1">
+                      </div>
+                      
+                      <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1"> Reason For Contact:</span>
+                        <input type="text" class="form-control" name="reason" placeholder="Your Reason For Contact Here" aria-label="Your Reason For Contact Here" aria-describedby="basic-addon1">
+                      </div>
+
+                      <div class="input-group mb-3">
+                        <input type="text" class="form-control"name="email"  placeholder="Your email here" aria-label="Your email here" aria-describedby="basic-addon2">
+                        <span class="input-group-text" id="basic-addon2">guestemail@example.com</span>
+                      </div>
+                
+                      <div class="input-group">
+                        <span class="input-group-text">Your Message Here</span>
+                        <textarea class="form-control" name="message" aria-label="Your Message Here"></textarea>
+                      </div>
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                      <h4>Please Note:</h4>
+                      <p>Eddie may take up to 2 business days to respond to emails. Thank you.</p>
+                </form>
+            </div>
+        </div>
+      </div>
+      <hr>
+      <br>
+      <div class="col-12 text-center map p-5">
+        <h3>Find us:</h3>
+        <iframe width="520" height="400" 
+        frameborder="0" scrolling="no" 
+        marginheight="0" marginwidth="0" id="gmap_canvas" 
+        src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=One%20University%20Way%20San%20Antonio+(Texas%20A&amp;M%20San%20Antonio)&amp;t=h&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe> 
+        <a href='https://add-map.org/'>google maps widget for website</a> <script type='text/javascript' 
+        src='https://embedmaps.com/google-maps-authorization/script.js?id=e66a83f34bb7f13551be6e47316aba0d03b86cee'></script>
+        </div>
+      </div>
+
+      <hr>
+      <br>
+      <br>
+      <br>
+      <br>
+
+    <!--Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>

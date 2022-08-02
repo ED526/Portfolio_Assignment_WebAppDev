@@ -1,52 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eddie's Portfolio</title>
-<!--Booststrap-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-<!--Personal CSS-->
-<link rel="stylesheet" type="text/css" href="../public/css/style.css">
-</head>
-<body>
-    <!--YOU ARE ON MY FAVORITES PAGE!!!-->
-    <!--Start of Nav Bar-->
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" >Eddie De Leon</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link"  href="./index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./mystory.html">My Story</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./education.html">Education</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./favorites.html">My Favorites</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Social
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="./contact.html">Contact Me</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <!--End of Nav Bar-->
-
+<%- include('layouts/header.ejs')%>
       <br>
       <br>
       <br>
@@ -59,7 +11,7 @@
         </div>
         <div class="row">
             <div class="col-4 text-center color p-3">
-                <img src="../public/projectimg/favcolor.png" alt="favcolor" width="60%">
+                <img src="projectimg/favcolor.png" alt="favcolor" width="60%">
             </div>
             <div class="col-4">
                 <br>
@@ -89,7 +41,7 @@
         </div>
         <div class="row">
             <div class="col-4 text-center food p-3">
-                <img src="../public/projectimg/favfood.jpg" alt="favfood" width="60%">
+                <img src="projectimg/favfood.jpg" alt="favfood" width="60%">
             </div>
             <div class="col-4">
                 <br>
@@ -119,7 +71,7 @@
             <div class="row">
                 <div class="col-4 text-center film p-3">
                     <a href="https://youtu.be/JNwNXF9Y6kY" target="_blank">
-                    <img src="../public/projectimg/favmovie.jpg" alt="favfilm" width="60%"> </a>
+                    <img src="projectimg/favmovie.jpg" alt="favfilm" width="60%"> </a>
                     
                     
                 </div>
@@ -152,7 +104,7 @@
             <div class="row">
                 <div class="col-4 text-center song p-3">
                     <a href="https://youtu.be/aQUlA8Hcv4s" target="_blank">
-                    <img src="../public/projectimg/favsong.jpg" alt="favson" width="60%"> </a>
+                    <img src="projectimg/favsong.jpg" alt="favson" width="60%"> </a>
                     <br>
                 </div>
                 <div class="col-4">
@@ -190,21 +142,21 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="../public/projectimg/hollywoodsign.jpg" class="d-block w-100" alt="Cali"
+            <img src="projectimg/hollywoodsign.jpg" class="d-block w-100" alt="Cali"
             width="60%">
             <div class="carousel-caption d-none d-md-block">
               <h5>Los Angeles (2022)</h5>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="../public/projectimg/washmon.jpg" class="d-block w-100" alt="DC"
+            <img src="projectimg/washmon.jpg" class="d-block w-100" alt="DC"
             width=60%>
             <div class="carousel-caption d-none d-md-block">
               <h5>Washington D.C. (2019)</h5>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="../public/projectimg/disneyselfie.jpg" class="d-block w-100" alt="DisneyWorld"
+            <img src="projectimg/disneyselfie.jpg" class="d-block w-100" alt="DisneyWorld"
             width="60%">
             <div class="carousel-caption d-none d-md-block">
               <h5>Orlando (2016)</h5>

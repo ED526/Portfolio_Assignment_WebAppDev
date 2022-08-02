@@ -1,52 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eddie's Portfolio</title>
-<!--Booststrap-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-<!--Personal CSS-->
-<link rel="stylesheet" type="text/css" href="../public/css/style.css">
-</head>
-<body>
-  <!--YOU ARE ON INDEX(HOME) PAGE!!!-->  
-  <!--Start of Navbar-->
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" >Eddie De Leon</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./mystory.html">My Story</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./education.html">Education</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./favorites.html">My Favorites</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Social
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="./contact.html">Contact Me</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <!--End of Nav Bar-->
-
+<%- include('layouts/header.ejs')%>
       <!--Start of Carousel (Home Page)-->
       <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
@@ -56,7 +8,7 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="../public/projectimg/welcome.png" class="d-block w-100" alt="Welcome"
+            <img src="projectimg/welcome.png" class="d-block w-100" alt="Welcome"
             width="60%">
             <div class="carousel-caption d-none d-md-block">
               <h5>Welcome</h5>
@@ -64,7 +16,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img src="../public/projectimg/ovaloffice.jpg" class="d-block w-100" alt="President Eddie"
+            <img src="projectimg/ovaloffice.jpg" class="d-block w-100" alt="President Eddie"
             width="60%">
             <div class="carousel-caption d-none d-md-block">
               <h5>President Eddie</h5>
@@ -72,7 +24,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img src="../public/projectimg/beachselfie.jpg" class="d-block w-100" alt="Beach Selfie"
+            <img src="projectimg/beachselfie.jpg" class="d-block w-100" alt="Beach Selfie"
             width="60%">
             <div class="carousel-caption d-none d-md-block">
               <h5>Relaxing</h5>
@@ -113,7 +65,7 @@
         <div class="row text-center video p-5">
           <div class="col">
             <video width = "420" height="600" controls>
-              <source src="../public/projectvid/porgpuppet.mov" type="video/mp4">
+              <source src="projectvid/porgpuppet.mov" type="video/mp4">
             </video>
           </div>
         </div>
