@@ -17,5 +17,3 @@ mongoose.connect(mongo, {useNewURLParser: true, useUnifiedTopology: true})
         console.log("Server is running on 3000")
     })
 })
-
-
